@@ -1,0 +1,10 @@
+#date, #month, #year{
+	width:80px;
+	margin-right: 10px;
+}
+.width_fix{
+	width: 50px;
+}
+.new_date label, select{
+	display: inline;
+}

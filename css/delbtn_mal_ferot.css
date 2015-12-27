@@ -1,0 +1,11 @@
+.delbtn{
+	position: relative;
+	left:60px;
+	bottom: -5px;
+	padding:0;
+	height:20px;
+	text-align: center;
+	line-height: 0px;
+	font-size: 15px;
+	cursor: pointer;
+}

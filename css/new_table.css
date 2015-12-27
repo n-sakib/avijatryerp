@@ -1,0 +1,42 @@
+.date li{
+	display: inline;
+}
+.new th{
+	font-size: 12px;
+	text-align: center;
+	padding: 8px 5px;
+    padding-top: 8px;
+    padding-right-value: 5px;
+    padding-bottom: 8px;
+    padding-left-value: 5px;
+}
+td{
+
+}
+table{
+	table-layout: fixed;
+	width:100%;
+	margin-bottom: 50px;
+}
+td select{
+	font-size: 15px;
+	width: 100%;
+	padding: 0px;
+}
+.new input{
+	font-size: 11px;
+}
+
+td input{
+	width: 90%;
+	font-size: 11px;
+}
+#factories select{
+	width: 250px;
+}
+#photo_up{
+	width:10px;
+}
+.in input{
+	width: 50px;
+}

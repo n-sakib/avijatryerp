@@ -1,0 +1,33 @@
+ul{
+	list-style: none;
+}
+.receipt{
+	width: 80%;
+	margin: auto;
+	
+}
+.header{
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	width:80%;
+}
+.left{
+	width: 10%;
+	position: absolute;
+	right: 10px;
+	top:10px;
+
+}
+.right{
+	width: 10%;
+	position: absolute;
+	left: 10px;
+	top:10px;
+}
+table {
+	width: 50%;
+	border: 2px solid #244a7c;
+	margin: auto;
+	margin-top: 500px;
+}

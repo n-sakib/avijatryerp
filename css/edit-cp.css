@@ -1,0 +1,15 @@
+body{
+	width  : 70%;
+	margin : auto;
+}
+table{
+	/* table-layout: fixed; */
+	width: 95%;
+}
+input[readonly="1"]{
+	border-color: #E0EEFC;
+	background-color: #E0EEFC;
+}
+input[id *= "pid"]{
+	width: 50%;
+}

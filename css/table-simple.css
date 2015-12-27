@@ -1,0 +1,75 @@
+.table-bordered {
+  border: 2px solid #333333;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; 
+  border-spacing: 0;}
+
+  .table-bordered th, .table-bordered td {
+    border-left: 2px solid #333333;
+    border-bottom: 1px solid #333333; 
+border-top: 1px solid #333333;  
+	padding-left: 5px}
+  .table-bordered tr:last-child td {
+  border-bottom: none; }
+.table-bordered tr:first-child td {
+  border-left: 2px solid #333333; }  
+.table-bordered caption + thead tr:first-child th {
+  border-top: 0; }
+.table-bordered caption + tbody tr:first-child th, .table-bordered caption + tbody tr:first-child td {
+  border-top: 0; }
+.table-bordered colgroup + thead tr:first-child th {
+  border-top: 0; }
+.table-bordered colgroup + tbody tr:first-child th, .table-bordered colgroup + tbody tr:first-child td {
+  border-top: 0; }
+.table-bordered thead:first-child tr:first-child th {
+  border-top: 0; }
+.table-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td {
+  border-top: 0; }
+.table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child {
+  -webkit-border-radius: 2px 0 0 0;
+  -moz-border-radius: 2px 0 0 0;
+  border-radius: 2px 0 0 0; }
+.table-bordered thead:first-child tr:first-child > th:last-child, .table-bordered tbody:first-child tr:first-child > td:last-child {
+  -webkit-border-radius: 0 2px 0 0;
+  -moz-border-radius: 0 2px 0 0;
+  border-radius: 0 2px 0 0; }
+.table-bordered thead:last-child tr:last-child > th:first-child, .table-bordered tbody:last-child tr:last-child > td:first-child, .table-bordered tfoot:last-child tr:last-child > td:first-child {
+  -webkit-border-radius: 0 0 0 2px;
+  -moz-border-radius: 0 0 0 2px;
+  border-radius: 0 0 0 2px; }
+.table-bordered thead:last-child tr:last-child > th:last-child, .table-bordered tbody:last-child tr:last-child > td:last-child {
+  -webkit-border-radius: 0 0 2px 0;
+  -moz-border-radius: 0 0 2px 0;
+  border-radius: 0 0 2px 0; }
+.table-bordered tfoot:last-child tr:last-child > td:last-child {
+  -webkit-border-radius: 0 0 2px 0;
+  -moz-border-radius: 0 0 2px 0;
+  border-radius: 0 0 2px 0; }
+.table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0; }
+.table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 2px 0;
+  -moz-border-radius: 0 0 2px 0;
+  border-radius: 0 0 2px 0; }
+.table-bordered caption + thead tr:first-child th:first-child, .table-bordered caption + tbody tr:first-child td:first-child {
+  -webkit-border-radius: 2px 0 0 0;
+  -moz-border-radius: 2px 0 0 0;
+  border-radius: 2px 0 0 0; }
+.table-bordered colgroup + thead tr:first-child th:first-child, .table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-radius: 2px 0 0 0;
+  -moz-border-radius: 2px 0 0 0;
+  border-radius: 2px 0 0 0; }
+.table-bordered caption + thead tr:first-child th:last-child, .table-bordered caption + tbody tr:first-child td:last-child {
+  -webkit-border-radius: 0 2px 0 0;
+  -moz-border-radius: 0 2px 0 0;
+  border-radius: 0 2px 0 0; }
+.table-bordered colgroup + thead tr:first-child th:last-child, .table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-radius: 0 2px 0 0;
+  -moz-border-radius: 0 2px 0 0;
+  border-radius: 0 2px 0 0; }

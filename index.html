@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+
+<html class="lt-ie9 lt-ie8 lt-ie7" lang="en">
+
+<![endif]-->
+<!--[if IE 7]>
+
+<html class="lt-ie9 lt-ie8" lang="en">
+
+<![endif]-->
+<!--[if IE 8]>
+
+<html class="lt-ie9" lang="en">
+
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+
+<html lang="en">
+  
+  <!--
+<![endif]-->
+ 
+<head>
+    <meta charset="utf-8">
+    <title>
+      Blue Moon - Responsive Admin Dashboard
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="icomoon/style.css" rel="stylesheet">
+    <!--[if lte IE 7]>
+    <script src="css/icomoon-font/lte-ie7.js">
+    </script>
+    <![endif]-->
+  <link href="css/wysiwyg/bootstrap-wysihtml5.css" rel="stylesheet">
+  <link href="css/wysiwyg/wysiwyg-color.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet"> <!-- Important. For Theming change primary-color variable in main.css  -->
+  <link href="css/charts-graphs.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <div class="btn-group">
+        <button class="btn btn-primary">
+          Srinu Baswa
+        </button>
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+          <span class="caret">
+          </span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li>
+            <a href="#">
+              Edit Profile
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Account Settings
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul class="mini-nav">
+        
+        
+        
+      </ul>
+      
+    </header>
+    <div class="container-fluid">
+      <div class="dashboard-container">
+        
+        <div class="sub-nav">
+          <ul>
+            <li><a href="#" class="heading">Dashboard</a></li>
+            
+          <div class="btn-group pull-right">
+            <button class="btn btn-primary">
+              Main Menu
+            </button>
+            <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+              <span class="caret">
+              </span>
+            </button>
+            <ul class="dropdown-menu pull-right">
+              <li>
+                <a href="index.html" data-original-title="">
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="forms.html" data-original-title="">
+                  Forms
+                </a>
+              </li>
+              <li>
+                <a href="graphs.html" data-original-title="">
+                  Graphs
+                </a>
+              </li>
+              <li>
+                <a href="ui_elements.html" data-original-title="">
+                  UI Elements
+                </a>
+              </li>
+              <li>
+                <a href="icons.html" data-original-title="">
+                  Icons
+                </a>
+              </li>
+              <li>
+                <a href="tables.html" data-original-title="">
+                  Tables
+                </a>
+              </li>
+              <li>
+                <a href="media.html" data-original-title="">
+                  Media
+                </a>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="dashboard-wrapper">
+          
+          <div class="left-sidebar">
+            
+            <div class="row-fluid">
+              <div class="span12">
+                <div class="widget">
+                  <div class="widget-header">
+                    
+                    
+                  </div>
+                  <div class="widget-body">
+                    <div class="row-fluid">
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+            <div class="row-fluid">
+              <div class="span12">
+                
+              </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="row-fluid">
+              <div class="span12">
+                
+              </div>
+            </div>
+            
+            
+            
+          </div>
+          <div class="right-sidebar">
+            
+            <div class="wrapper">
+              <ul class="stats">
+                <li>
+                  <div class="left">
+                    <h4>
+                      15,859
+                    </h4>
+                    <p>
+                      Unique Visitors
+                    </p>
+                  </div>
+                  <div class="chart">
+                    <span id="unique-visitors">
+                      2, 4, 1, 7, 9, 8, 2, 3, 5, 6
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="left">
+                    <h4>
+                      $47,830
+                    </h4>
+                    <p>
+                      Monthly Sales
+                    </p>
+                  </div>
+                  <div class="chart">
+                    <span id="monthly-sales">
+                      3, 9, 8, 5, 3, 5, 2, 3, 4, 7
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="left">
+                    <h4>
+                      $98,846
+                    </h4>
+                    <p>
+                      Current balance
+                    </p>
+                  </div>
+                  <div class="chart">
+                    <span id="current-balance">
+                      3, 5, 8, 5, 3, 5, 2, 9, 6, 8
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="left">
+                    <h4>
+                      18,846
+                    </h4>
+                    <p>
+                      Registrations
+                    </p>
+                  </div>
+                  <div class="chart">
+                    <span id="registrations">
+                      3, 9, -8, 5, -3, 5, -2, 9, 6, 8
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="left">
+                    <h4>
+                      22,571
+                    </h4>
+                    <p>
+                      Site Visits
+                    </p>
+                  </div>
+                  <div class="chart">
+                    <span id="site-visits">
+                      2, 5, -4, 6, -3, 5, -2, 7, 9, 5
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            <hr class="hr-stylish-1">
+            
+            
+            <div class="wrapper">
+              <div id="scrollbar">
+                <div class="scrollbar">
+                  <div class="track">
+                    <div class="thumb">
+                      <div class="end">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+      <!--/.fluid-container-->
+    </div>
+    <footer>
+      <p>
+        &copy; baswaAdmin 2013
+      </p>
+    </footer>
+    
+    <script src="js/wysiwyg/wysihtml5-0.3.0.js">
+    </script>
+    <script src="js/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.js">
+    </script>
+    <script src="js/wysiwyg/bootstrap-wysihtml5.js">
+    </script>
+    <script src="js/jquery.scrollUp.js">
+    </script>
+    
+    
+    <!-- Google Visualization JS -->
+    <script type="text/javascript" src="https://www.google.com/jsapi">
+    </script>
+    
+    <!-- Easy Pie Chart JS -->
+    <script src="js/jquery.easy-pie-chart.js">
+    </script>
+    
+    <!-- Sparkline JS -->
+    <script src="js/jquery.sparkline.js">
+    </script>
+    
+    <!-- Tiny Scrollbar JS -->
+    <script src="js/tiny-scrollbar.js">
+    </script>
+    
+    
+    
+    <script type="text/javascript">
+      //ScrollUp
+      $(function () {
+        $.scrollUp({
+          scrollName: 'scrollUp', // Element ID
+          topDistance: '300', // Distance from top before showing element (px)
+          topSpeed: 300, // Speed back to top (ms)
+          animation: 'fade', // Fade, slide, none
+          animationInSpeed: 400, // Animation in speed (ms)
+          animationOutSpeed: 400, // Animation out speed (ms)
+          scrollText: 'Scroll to top', // Text for element
+          activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+        });
+      });
+
+      //Google Visualiations
+      google.load("visualization", "1", {
+        packages: ["corechart"]
+      });
+      google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Week', 'Visitors', 'Orders'],
+          ['Sun', 9709, 761],
+          ['Mon', 1367, 8631],
+          ['Tue', 6792, 971],
+          ['Wed', 1267, 7491],
+          ['Thu', 9539, 1792],
+          ['Fri', 670, 9367],
+          ['Sat', 9761, 709]
+        ]);
+
+        var options = {
+          width: 'auto',
+          height: '160',
+          backgroundColor: 'transparent',
+          colors: ['#ed6d49', '#0daed3'],
+          tooltip: {
+            textStyle: {
+              color: '#666666',
+              fontSize: 11
+            },
+            showColorCode: true
+          },
+          legend: {
+            textStyle: {
+              color: 'black',
+              fontSize: 12
+            }
+          },
+          chartArea: {
+            left: 100,
+            top: 10
+          },
+          focusTarget: 'category',
+          hAxis: {
+            textStyle: {
+              color: 'black',
+              fontSize: 12
+            }
+          },
+          vAxis: {
+            textStyle: {
+              color: 'black',
+              fontSize: 12
+            }
+          },
+          pointSize: 6,
+          chartArea: {
+            left: 60,
+            top: 10,
+            height: '80%'
+          },
+          lineWidth: 1,
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('area_chart'));
+        chart.draw(data, options);
+      }
+
+
+      //Tooltip
+      $('a').tooltip('hide');
+      $('i').tooltip('hide');
+
+
+      //Tiny Scrollbar
+      $('#scrollbar').tinyscrollbar();
+      $('#scrollbar-one').tinyscrollbar();
+      $('#scrollbar-two').tinyscrollbar();
+      $('#scrollbar-three').tinyscrollbar();
+
+
+
+      //Tabs
+      $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      })
+
+      // SparkLine Graphs-Charts
+      $(function () {
+        $('#unique-visitors').sparkline('html', {
+          type: 'bar',
+          barColor: '#ed6d49',
+          barWidth: 6,
+          height: 30,
+        });
+        $('#monthly-sales').sparkline('html', {
+          type: 'bar',
+          barColor: '#74b749',
+          barWidth: 6,
+          height: 30,
+        });
+        $('#current-balance').sparkline('html', {
+          type: 'bar',
+          barColor: '#ffb400',
+          barWidth: 6,
+          height: 30,
+        });
+        $('#registrations').sparkline('html', {
+          type: 'bar',
+          barColor: '#0daed3',
+          barWidth: 6,
+          height: 30,
+        });
+        $('#site-visits').sparkline('html', {
+          type: 'bar',
+          barColor: '#f63131',
+          barWidth: 6,
+          height: 30,
+        });
+      });
+
+      //wysihtml5
+      $('#wysiwyg').wysihtml5();
+    </script>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.div-fix{
+	float: left;
+	width: 145px;
+	min-height: 100px;
+	
+}
+
+.div-fix h1, .div-fix li{
+	width: 140px;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+
+
+/* position list chunks side by side */
+#col-list { display: block; }
+   ul.col {
+    display:inline;
+    list-style:none;
+  }
+  li.col {
+    font-size:16px;
+    margin:0;
+    padding:5px 10px;
+  }
+  #col-list {
+    _width:600px;
+    -webkit-column-count:4;
+       -moz-column-count:4;
+            column-count:4;
+  }

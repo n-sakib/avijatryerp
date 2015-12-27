@@ -1,0 +1,47 @@
+@media print{
+	input , a , title{
+		visibility: hidden;
+	}
+	table{
+		border: none;
+		margin:auto;
+	}
+	p.bc{
+	font-family: 'barcode';
+	font-size: 30.3px;
+	line-height: 0px;
+	text-align: center;
+	.table tr,td{
+	width: 128px;
+	height: 74px;
+    border: 0px solid;
+	padding:0px 20px;
+	margin:0;
+	}
+}
+.des {
+	font-size: 8px;
+}
+}
+@font-face{
+	font-family: 'barcode';
+	src: url('fonts/C39HRP24DHTT.ttf');
+}  
+.bc{
+	font-family: 'barcode';
+	font-size: 30.3px;
+	line-height: 0px;
+	text-align: center;
+}
+.des {
+	text-align: center; 
+	font-size: 8px;
+	margin:0;
+	padding:0 0;
+	position: relative;
+	top:10px;
+}
+#print-btn, #gen-btn{
+	position: fixed;
+	bottom:20px;
+}

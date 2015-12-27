@@ -1,0 +1,9 @@
+img#thumb{
+    cursor:pointer;
+}
+
+div.imgTooltip {
+    position:absolute;
+    max-width:25px;
+    z-index: 1;
+}

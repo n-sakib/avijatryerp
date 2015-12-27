@@ -1,0 +1,6 @@
+.del-row{
+	position:relative;
+	bottom: 16px;
+	left: 14px;
+	cursor: pointer;
+}

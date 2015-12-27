@@ -1,0 +1,40 @@
+/* reseting all paddings and margins*/ 
+*{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 11px;
+	
+}
+th,td{
+	height: 26.46px;
+}
+.table{
+	background: #FFE79F;
+	table-layout: fixed;
+}
+.head{
+	margin-top: 113.4px;
+	margin-bottom: 10px;
+}
+#mot{
+	position: absolute;
+	top: 807.1px;
+}
+#date{
+	position:relative;
+	bottom: 5px;
+}
+
+.body{
+	
+	border: 1px solid;
+	margin-left: 10px;
+}
+.body th,td{
+	
+	border-bottom: 0.5px ridge;
+	border-right: 0.5px ridge;
+}

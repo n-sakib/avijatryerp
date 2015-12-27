@@ -1,0 +1,43 @@
+@media print{
+	.table tr,td{
+	width: 128px;
+	height: 74px;
+    border: 0px solid;
+	padding:0px 20px;
+	margin:0;
+	}
+	input , a , title{
+		visibility: hidden;
+	}
+}	
+table{
+	margin-left: 20px;
+	table-layout: fixed;
+}
+.table tr,td{
+	width: 128px;
+	height: 74px;
+    border: 0px solid;
+	padding:0px 20px;
+	margin:0;
+}
+input{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+a{
+	position: absolute;
+	bottom: 10px;
+	left: 80px;
+}
+input{
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+}
+.des{
+	margin:auto;
+	/*width:80px;
+	/* left:50px; */
+}

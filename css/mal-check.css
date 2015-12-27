@@ -1,0 +1,19 @@
+table{
+	table-layout: fixed;
+	width: 90%;
+	border: .3px solid;
+	text-align: left;
+	margin: auto;
+}
+th{
+	width: 33%;
+}
+p{
+	margin : auto;
+	text-align: center;
+}
+@media print{
+	input{
+		visibility: hidden;
+	}
+}

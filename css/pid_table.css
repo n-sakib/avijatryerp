@@ -1,0 +1,21 @@
+table{
+	margin-left: 20px;
+	table-layout: fixed;
+}
+.table tr,td{
+	width: 130px;
+	height: 74px;
+    border: 0px solid;
+	padding:0px 20px;
+	margin:0;
+}
+input{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+a{
+	position: absolute;
+	bottom: 10px;
+	left: 80px;
+}

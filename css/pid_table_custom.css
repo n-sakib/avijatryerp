@@ -1,0 +1,16 @@
+/* table{
+	border: 1px solid;
+	margin-left: 20px;
+	table-layout: fixed;
+	width:800px;
+} */
+input{
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+}
+.des{
+	margin:auto;
+	/*width:80px;
+	/* left:50px; */
+}
